@@ -1,7 +1,7 @@
 # 設定
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/YutaUra/dotfiles/HEAD/setup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/YutaUra/dotfiles/main/setup.sh)"
 ```
 
 上記のコマンドでインストールするもの
