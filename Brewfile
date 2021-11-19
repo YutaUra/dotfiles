@@ -1,0 +1,16 @@
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
+brew "anyenv"
+brew "awscli"
+brew "gh"
+
+cask "altair-graphql-client"
+cask "docker"
+cask "font-menlo-for-powerline"
+cask "google-chrome"
+cask "iterm2"
+cask "postman"
+cask "slack"
+cask "visual-studio-code"
