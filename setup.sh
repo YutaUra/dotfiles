@@ -18,11 +18,12 @@ rm ~/.zpreztorc
 ln -s ~/dotfiles/.zpreztorc ~/.zpreztorc
 
 
-# ghの設定
-echo "\n3. ghの設定を開始します\n"
+# git の設定
+echo "\n3. git の設定を開始します\n"
 git config --global user.name "YutaUra"
 git config --global user.email "yuuta3594@outlook.jp"
 git config --global init.defaultBranch main
+git config --global core.editor 'code --wait'
 echo "\nghでログインします。\n"
 gh auth login
 echo "sshでgithubに接続できるか確認"
